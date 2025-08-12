@@ -508,7 +508,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -518,7 +518,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     border: none;
     border-radius: 4px;
 }
-.order-icons{
+.order-icons-s{
     margin-left: 16px;
     fill: #ffffff;
 }
