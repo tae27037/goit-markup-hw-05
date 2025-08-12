@@ -584,6 +584,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-cont-link-inf:focus{
     border-color: #4D5AE5;
@@ -621,6 +622,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .modal-comment{
     margin-bottom: 16px;
 }
+
 .modal-comm-inf{
     color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
@@ -645,27 +647,27 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     line-height: 1.17;
     letter-spacing: 0.04em;
 }
-.acc-but-priv{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    fill: transparent;
+.acc-but-priv {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent; }
 .modal-comm-inf:focus{
     border-color: #4D5AE5;
 }
-.modal-button:hover{
+.modal-button:focus{
     background-color: #404bbf;
     border: none;
 }
 .modal-icons-close{
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal .modal-button:hover,
 .modal .modal-button:focus{
