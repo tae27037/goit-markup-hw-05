@@ -474,7 +474,6 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 /* subscribe */
 .order-text{
     margin-bottom: 16px;
-    margin-left: 80px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -484,6 +483,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .order-form{
     display: flex;
     gap: 24px;
+    margin-left: auto;
 }
 .order-email{
     width: 264px;
@@ -497,7 +497,6 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     letter-spacing: 0.04em;
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);  
-    margin-left: 80px;
 }
 .order-email::placeholder{
     color: #FFFFFF;
@@ -700,6 +699,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     cursor: pointer;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
     margin: 0 auto;
 }
 .visually-hidden:checked+.button-privacy .acc-but-priv {
