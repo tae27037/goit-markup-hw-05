@@ -147,7 +147,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0;
+    margin: 0 auto;
     
 }
 .title-name {
@@ -669,6 +669,7 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     align-items: center;
     justify-content: center;
     fill: transparent; 
+    margin-right: 8px;
 }
 .modal-comm-inf:focus{
     border-color: #4D5AE5;
